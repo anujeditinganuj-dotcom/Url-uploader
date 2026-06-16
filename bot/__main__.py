@@ -258,7 +258,7 @@ async def start_command(client, message):
         return
 
     await message.reply_photo(
-        photo="https://d.uguu.se/iatVErRR.jpg",
+        photo="https://i.ibb.co/d4q8x17P/dab3d92a44a4.jpg",
         caption=(
             f"👋 Hello {message.from_user.mention}!\n\n"
             "ⵊ Aᴍ Tᴇʟᴇɢʀᴀᴍ URL Uᴘʟᴏᴀᴅᴇʀ Bᴏᴛ.\n\n"
@@ -1423,7 +1423,7 @@ async def callback_handler(client, callback_query):
             await message.edit(
                 "🛠️ **Get Support**\n\n"
                 "If you need help or want to report an issue, join our support group:\n\n"
-                "🔗 @anujeditbyak",
+                "🔗 @log_ak_bots",
                 reply_markup=InlineKeyboardMarkup([
                     [InlineKeyboardButton("Support Group", url="https://t.me/log_ak_bots")],
                     [InlineKeyboardButton("◀️ Back", callback_data="back_to_start")]
